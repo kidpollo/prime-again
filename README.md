@@ -1,5 +1,7 @@
 # Prime Challenge (2017 version)
 
+[![CircleCI](https://circleci.com/gh/kidpollo/prime-again.svg?style=svg)](https://circleci.com/gh/kidpollo/prime-again)
+
 Prime number multiplication table challenge this time brought to you by Clojurescript, [Lumo](https://github.com/anmonteiro/lumo) and the latest and gratest of the Clojure ecosystem :P
 
 ## TL;DR
