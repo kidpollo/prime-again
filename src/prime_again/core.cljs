@@ -42,8 +42,9 @@
 (enable-console-print!)
 
 (defn -main
-  [& _]
-  (let [primes (take 10 (primes-between (range)))
+  [& [args]]
+  (let [n (js/parseInt args)
+        primes (take n (primes-between (range)))
         rows (multiplication-table primes)]
     (pprint/print-table (into [nil] primes) rows)))
 
